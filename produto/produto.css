@@ -1,0 +1,168 @@
+.inf_prod{
+	margin-top: 150px;
+	margin-left: 5%;
+	margin-bottom: 20px;
+    width: 90%;
+	display: flex;
+	float: left;
+	border-top:  1px solid #600;
+	border-bottom:  1px solid #600;
+}
+
+.img_prod_um{
+	margin: 20px;
+}
+
+
+
+.img_um{
+	margin: auto;
+	width: 500px;
+	border-color: black;
+}
+
+.prod_tit{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 40PX;
+	margin-right: auto;
+	
+}
+.marca{
+	font-size: 20px;
+}
+.nome{
+	font-size: 25px;
+	font-weight: bold;
+	width: 450px;
+}
+.valor{
+	font-size: 22px;
+	margin: 60px;
+}
+.modelo{
+	font-size: 18px;
+}
+
+.add_link{
+    text-decoration: none;
+}
+
+.add_sacola{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+	color: white;
+    border: 1px solid #600;
+    border-radius: 3px;
+	background-color: #9b3b4d;
+}
+
+.add_sacola p{
+    margin-top: 12px;
+    font-size: 15px;
+    color: white;
+}
+
+.add_sacola a{
+    text-decoration: none;
+}
+
+.add_sacola:hover{
+    color: white;
+    background-color: #992339 ;
+    box-shadow: #992339 1px 1px 1px ;
+}
+
+.comprar{
+    margin: auto;
+    margin-top: 10px;
+	margin-bottom: 20px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+	color: white;
+    border: 1px solid rgb(44, 43, 43);
+    border-radius: 3px;
+	background-color: #292727;
+}
+
+.comprar p{
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+.comprar:hover{
+    color: white;
+    background-color: #000000 ;
+    box-shadow: #050505 1px 1px 1px ;
+}
+
+
+.desc_prod{
+	margin-left: 5%;
+    width: 90%;
+	margin-bottom: 170px;
+}
+
+.desc_tit{
+	text-align: center;
+	font-size: 23px;
+}
+
+
+  #container{
+      width:850px;
+      height:auto;
+      margin:10px auto;
+      background-color:white;	
+	  float: left;
+      }
+
+  
+  .principal{
+      overflow: hidden;
+      }
+      
+  label img{
+      opacity:.3;
+      width:120px;
+      cursor:pointer;
+      transition:all .4s;
+      }
+      
+  .slide{
+      display:flex;
+      width:200%;	
+      transition: all .8s ease-in-out;
+      }
+  
+  input[name="grupo"]{
+      display:none;
+      }
+  
+ 
+  #foto2:checked~  .principal .slide{
+      margin-left:-100%;	
+      }
+  
+  input[name="grupo"]:checked + label img{
+      opacity:.9;
+	  border: 1px solid black;
+
+      }
+
+
+.sem_est{
+    background-color: rgb(175, 166, 166);
+    color: #000000;
+    border: 1px solid grey;
+}
+
+.sem_est:hover{
+    background-color: rgb(165, 159, 159);
+    box-shadow: #949192 1px 1px 1px ;
+    color: #000000;
+}

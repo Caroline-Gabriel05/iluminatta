@@ -1,0 +1,178 @@
+.pedidos{
+    margin-left: 330px;
+}
+
+h3{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.mostra_pedidos{
+    width: 85%px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: -20px;
+}
+
+.link_pedidos{
+    text-decoration: none;
+    color: black;
+}
+
+.produto{
+    height: 90px;
+    padding-left: 10px;
+}
+
+.lih{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.produto p{
+    display: inline-block;
+}
+
+.nome_prod{
+    margin-bottom: 0;
+    font-size: 15px;
+    margin-left: 40px;
+    width: 40%;
+}
+
+.preco_prod{
+    width: 140px;
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+
+.quant{
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.prod_img{
+    margin-top: 10px;
+    height: 80px;
+}
+
+.entrega p{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.imga{
+    height: 90px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.quant{
+    margin-bottom: -10px;
+}
+
+.pedido{
+    border: 1px solid rgb(136, 84, 84);
+    box-shadow: #600 1px 2px 5px ;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius:4px;
+    background-color: white;
+}
+
+.preco{
+    width: 100px;
+    margin-left: 34%;
+    color: rgb(56, 56, 56);
+    margin-top: -10px;
+}
+
+.preco_2{
+    margin-left: 47px;
+    width: 150px;
+    color: rgb(45, 45, 45);
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.status{
+    display: inline-block;
+    font-size: 17px;
+}
+
+.total{
+    font-size: 19px;
+    width: 113px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.tot{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+.entre{
+    display: inline-block;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: -15px;
+}
+
+.entreg{
+    width: 49%;
+}
+
+.cheg{
+    width: 15%;
+}
+
+.chegada{
+   width: 32%;
+}
+.chegad{
+    width: 39%;
+ }
+
+ 
+.entregado{
+    width: 40px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.932);
+    cursor: pointer;
+    float: right;
+
+}
+
+.envio{
+    width: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+form{
+    margin-left: -18px;
+    display: inline-block;
+    width: 80px;
+}
+
+.form_chg{
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+}

@@ -1,0 +1,97 @@
+.relatorio{
+    margin: auto;
+    width: 75%;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.932);
+    border-radius: 7px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h4{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.anual{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.itens_tot{
+    font-size: 17px;
+    width: 38%;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.val_tot{
+    font-size: 17px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+}
+
+table{
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.leg{
+    background-color: rgba(150, 37, 58, 0.921);
+    font-weight: 600;
+    text-align: center;
+}
+
+.mes{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+td{
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+h3{
+    padding-left: 20px;
+}
+
+.codig{
+    width: 17%;
+}
+
+.nome{
+    width: 30%;
+}
+
+.data{
+    width: 15%;
+}
+
+.preco{
+    width:20%
+}
+
+table{
+    text-align: center;
+}

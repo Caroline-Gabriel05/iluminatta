@@ -1,0 +1,233 @@
+body{
+    font-family: 'Texta Alt', sans-serif;
+    font-size: 17px;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ #containe-menu{
+    position: sticky;
+     margin: 0;
+     top: 0;
+     transition: all .5s;
+     width: 100%;
+     height: 40px;
+     z-index: 1;
+ }
+ 
+ #topo{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+ }
+ 
+ #topo img{
+    margin: auto;
+    width: 310px;
+ }
+ 
+ #icones{
+   margin-right: 140px;
+   display: inline-flex;
+ }
+ 
+ #icone_cad img{
+   width: 30px;
+   padding: 15px;
+   margin-right: 30px;
+ }
+ 
+ #icone_sac img{
+     cursor: pointer;
+     width: 30px;
+     padding: 15px;
+   }
+ 
+ #icon_adm{
+     display: none;
+     text-align: center;
+     background-color: rgba(211, 211, 211, 0.986);
+     width: 270px;
+     height: 100px;
+     border-radius: 5px;
+     position: absolute;
+     z-index: 2;
+     padding: 10px;
+     margin-right: 20px;
+ }
+ 
+ #icon_adm p{
+     color: #fffdfd;
+     padding-top: 7px;
+     padding-bottom: 7px;
+ }
+ 
+ #icon_adm a{
+     text-decoration: none;
+ }
+ 
+ #icone_cad:hover #icon_adm{
+     display: block;
+ }
+ 
+ 
+ #icon_conta a{
+     color: #000000;
+     font-size: 17px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 55px;
+     padding-right: 55px;
+     cursor: pointer;
+ }
+ 
+ #icon_conta a:hover{
+    color: rgb(61, 59, 59);
+ }
+ 
+ #icon_sair a{
+     color: #000000;
+     font-size: 17px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 40px;
+     padding-right: 40px;
+     cursor: pointer;
+ }
+ 
+ #icon_sair a:hover{
+    color: rgb(61, 59, 59);
+ }
+ 
+     /*parte que tem a logo*/
+ 
+     
+  /*menu*/      
+     .menu {
+     margin-top: -18px;
+     margin-left: 0;
+     margin-right: 0;
+     width: 100%;
+     height: 50px;
+     background-color: rgb(153, 35, 57);
+     }
+ 
+     .menu ul {
+     margin-left: 2%;
+     margin-right: 2%;
+     list-style: none;
+     position: relative;
+     }
+    
+    .menu ul li {
+     width: 200px;
+     float: left;
+     font-size: 17px;
+    
+     }
+ 
+    .menu ul li a {
+     text-align: center;
+     padding: 14px;
+     display: block;
+     text-decoration: none;
+     background-color: #992339;
+     color: rgb(245, 238, 238);
+    }
+ 
+   
+    .menu ul ul {
+     position: absolute;
+     visibility: hidden;
+     }
+    
+    .menu ul li:hover ul {
+     visibility: visible;
+     }
+    
+    .menu a:hover {
+     background-color: #861f32;
+     }
+    
+    .menu ul ul li {
+     float: none;
+     }
+    
+    .menu ul ul li a {
+     background-color: #861f32;
+     font-size: 15px;
+     padding: 10px;
+     width: 150px;
+     text-align: left;
+     }
+ 
+     .menu ul ul li a:hover{
+     background-color: #681424;
+     }
+ 
+     .menu ul li marca{
+       display: inline-block;
+     }
+ 
+     #marca{
+       width: 180px;
+       height: auto;
+       max-height: 300px;
+       overflow-x: hidden;
+     }
+ 
+ 
+ 
+           /*rodapé*/
+ 
+    footer{
+       background-color: #992339;
+       position: absolute;
+       bottom:0;
+       left:0;
+       width: 100%;
+   }
+ 
+   .container-footer{
+       width: 100%;
+       margin: auto;
+   }
+   .row-footer{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   
+   .footer-col{
+       width: 22%;
+       padding: 0 15px;
+   }
+   .footer-col h4{
+       font-size: 19px;
+       color: white;
+       position: relative;
+   }
+   .footer-col ul{
+       list-style: none;
+   }
+   
+   .footer-col ul li a{
+       font-size: 17px;
+       color: white;
+       text-decoration: none;
+       display: block;
+       transition: all 0.3s ease;
+   }
+   .footer-col ul li a:hover{
+       color: #000000;
+       padding-left: 5px;
+   }
+ 
+   .footer-col ul img{
+    width: 30px;
+   }
+ 

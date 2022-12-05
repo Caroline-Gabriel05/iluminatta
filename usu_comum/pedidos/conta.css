@@ -1,0 +1,10 @@
+.pedi{
+    border-left: 3px solid rgb(153, 35, 57);
+    margin-left: 2px;
+    
+}
+.ped:hover{
+    border-top: 1px solid rgb(218, 218, 218);
+    border: none;
+    margin-left: 0;
+}

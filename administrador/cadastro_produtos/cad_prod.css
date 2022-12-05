@@ -1,0 +1,171 @@
+
+
+h3{
+   margin-bottom: 30px;
+   font-size: 22px;
+}
+
+.box_cad{
+   position: relative;
+   margin-left: 350px;
+   margin-right: auto;
+   background-color: rgb(255, 255, 255);
+   padding: 15px;
+   width: 70%;
+   font-size: 17px;
+   flex-grow: 1;
+   margin-bottom: 10px;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.inputcampo{
+   position: relative;
+}
+
+.inputcampoimg{
+   text-align: center;
+   margin: 0 auto;
+}
+
+.insereimg{
+  display: inline-block;
+  padding: 10px;
+}
+ 
+input[type="file"] {
+   display: none;
+}
+
+#image{
+   padding: 15px 10px;
+   width: 200px;
+   background-color: #992339;
+   color: #FFF;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 14px;
+   display: block;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+#image:hover{
+   background-color: #991d34;
+}
+
+.insere{
+   background: none;
+   border: none;
+   border-bottom: 1px solid rgb(146, 146, 146);
+   outline: none;
+   color: rgb(3, 3, 3);
+   font-size: 17px;
+   width: 100%;
+   letter-spacing: 2px;
+}
+
+.labelInput{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   pointer-events: none;
+   transition: .5s;
+   
+}
+
+.insere:focus ~ .labelInput,
+.insere:valid ~ .labelInput{
+   top: -20px;
+   font-size: 14px;
+   color: rgb(78, 75, 75);
+}
+
+.inputgrupodois{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 1rem 0;
+}
+
+.inputdois{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1.1rem ;
+}
+
+.inseredois, .inseredoisd{
+   background: none;
+   border: none;
+   border-bottom: 1px solid rgb(146, 146, 146);
+   outline: none;
+   color: rgb(0, 0, 0);
+   font-size: 17px;
+   width: 80%;
+   letter-spacing: 2px;
+}
+
+
+
+.inseredois:focus ~ .labelInputdois,
+.inseredois:valid ~ .labelInputdois{
+   top: -20px;
+   font-size: 14px;
+   color: rgb(78, 75, 75);
+}
+
+select {
+   border: 1px solid #333;
+   font-size: 17px;
+   width: 70%;
+   border: none;
+   padding: 10px;
+   color: rgb(0, 0, 0);
+   font-size: 15px;
+   border-radius: 10px;
+}
+
+ td{
+   width: 300px; 
+   height: 20px; 
+ }
+
+#salva{
+   background-color: rgb(88, 114, 79);
+   width: 100%;
+   border: none;
+   padding: 15px;
+   color: white;
+   font-size: 17px;
+   cursor: pointer;
+   border-radius: 10px;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#salva:hover{
+   background-color: rgb(100, 114, 93);
+}
+
+#limpa{
+   background-color: rgb(134, 43, 43);
+   width: 100%;
+   border: none;
+   padding: 15px;
+   color: white;
+   font-size:17px;
+   cursor: pointer;
+   border-radius: 10px;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#limpa:hover{
+   background-color: rgb(150, 67, 67);
+}
+
+#inputform{
+   border: 1px solid black;
+   border-radius: 4px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}

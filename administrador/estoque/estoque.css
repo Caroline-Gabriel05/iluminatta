@@ -1,0 +1,57 @@
+.container_est{
+    background-color: rgb(253, 253, 253);
+    width: 75%;
+    margin-left: 270px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-size: 17px;
+}
+
+.estoque td, td, table{
+    border: 1px solid black;
+}
+
+.dados{
+    height: 50px;
+}
+
+.lin{
+    font-weight: bold;
+    height: 40px;
+    font-size: 19px;
+}
+
+
+.cod{
+    width: 6%px;
+}
+
+.mod{
+    width: 14%;
+}
+
+.pre{
+    width: 17%;
+}
+
+.est{
+    width: 7%;
+}
+
+.nom{
+    width: 35%;
+}
+
+.marc{
+    width: 19%;
+}

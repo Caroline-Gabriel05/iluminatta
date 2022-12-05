@@ -1,0 +1,125 @@
+.body{
+    font-family: 'Texta Alt', sans-serif;
+}
+
+.produto{
+    padding-top: 25px;
+    text-align: center;
+}
+
+
+.img_produtos{
+    width: 230px;
+
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.produtos a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.produto{
+    margin: 15px;
+    background-color: #f5f0f0;;
+    border-radius: 5px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    width: 280px;
+    height: 400px;
+}
+
+.produto h3{
+    width: 220px;
+    text-align: center;
+    font-size: 15px;
+    height: 10px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.produto:hover{
+    border: 1px solid rgb(136, 84, 84);
+    width: 278px;
+    height: 398px;
+    box-shadow: #600 1px 2px 5px ;
+    background-color: white;
+}
+
+.add_sacola{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 220px;
+    height: 40px;
+    border: 1px solid #600;
+    border-radius: 3px;
+}
+
+.add_sacola p{
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+.add_sacola:hover{
+    color: white;
+    background-color: #992339 ;
+    box-shadow: #992339 1px 1px 1px ;
+}
+
+.imagem_prod{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width: 230;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.icon_prod img{
+    width: 20px;
+    height: 20px;
+
+}
+
+.edit{
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.icon_prod{
+    display: inline-block;
+}
+
+.botao{
+    width: 30px;
+    border: none;
+    display: inline-block;
+    background-color: none;
+}
+
+.botao:hover{
+    background-color: white;
+}
+
+.codigo{
+    width: 10px;
+    display: inline-block;
+    display: none;
+}
+
+form{
+    margin-right: 10px;
+    width: 10px;
+    float: right;
+}

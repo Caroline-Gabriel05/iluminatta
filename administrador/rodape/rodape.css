@@ -1,0 +1,104 @@
+body{
+    font-family: 'Texta Alt', sans-serif;
+    font-size: 17px;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ 
+
+
+
+      /*rodapé*/
+
+      footer{
+        background-color: #861f32;
+        position: absolute;
+        bottom:0;
+        left:0;
+        width: 100%;
+    }
+  
+    .container-footer{
+        width: 100%;
+        margin: auto;
+    }
+    .row-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer-col{
+        width: 22%;
+        padding: 0 15px;
+    }
+    .footer-col h4{
+        font-size: 19px;
+        color: white;
+        position: relative;
+    }
+    .footer-col ul{
+        list-style: none;
+    }
+    
+    .footer-col ul li a{
+        font-size: 17px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .footer-col ul li a:hover{
+        color: #000000;
+        padding-left: 5px;
+    }
+    .footer-col .medias-socias{
+        margin-top: 10px;
+    }
+    .footer-col .medias-socias a{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        margin: 0 10px 10px 0;
+        text-decoration: none;
+        border-radius: 50%;
+        color: white;
+        border: 1px solid white;
+        transition: all 0.5s ease;
+    }
+    .footer-col .medias-socias a i{
+        font-size: 30px;
+    }
+    
+    .footer-col .medias-socias a:hover{
+        color: #000000;
+        background-color: white;
+    }
+    
+    .footer-col ul img{
+     width: 30px;
+    }
+
+    .footer-col a{
+    text-decoration: none;
+    }
+
+    .rede li{
+    text-decoration: none;
+    color: white;
+    }
+
+    .rede li img{
+        margin-right: 10px;
+        margin-bottom: -2px;
+
+    }
+
+    .rede li:hover{
+        color: black;
+        padding-left: 5px;
+    }

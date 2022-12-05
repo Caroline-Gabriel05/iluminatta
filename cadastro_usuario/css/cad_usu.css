@@ -1,0 +1,159 @@
+.body{
+  font-family: 'Texta Alt', sans-serif;
+}
+
+.box{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;  
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    font-size: 17px;
+    flex-grow: 1;
+    margin-bottom: 170px;
+ }
+ .ver{
+  border: none;
+  background: none;
+  width: auto;
+  display: inline-block;
+}
+
+#ver_img{
+  margin-bottom: -4px;
+}
+
+ 
+ legend{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #992339;
+    padding: 8px;
+    text-align: center;
+    background-color: #992339;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+ }
+
+ label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  
+
+.radio-inline{
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+ input[type="radio"]{
+  margin: 4px 0 0;
+  margin-top: 5px;
+  line-height: normal;
+}
+
+input[type="date"]{
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border:none
+}
+
+.form-input {
+    display: block;
+    width: 95%;
+    height: 20px;
+    padding: 6px 12px;
+    font-size: 17px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+  .form-campo {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-top: 13px;
+  }
+
+  .form-camp {
+    float: left;
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+  }
+
+  .gene{
+    margin-left: -15px;
+  }
+
+  .data{
+    margin-left: 80px;
+  }
+  .cep{
+    width: 35%;
+    margin-left: -15px;
+    margin-right: 10px;
+  }
+
+  .city{
+    width: 53%;
+  }
+
+  .rua{
+    margin-left: -15px;
+    width: 80%;
+  }
+  .num{
+    width: 10%;
+  }
+
+  
+  .botao{
+    text-align: center;    /* essa declaração sozinha fez a centralização */
+  margin: 0 auto;
+  }
+
+  .btn-cadastrar {
+   background-color: #992339;
+   width: 45%;
+   border: none;
+   padding: 13px;
+   color: white;
+   font-size: 17px;
+   cursor: pointer;
+   border-radius: 10px;
+   margin-top: 20px;
+   margin-left: 13px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+  }
+
+  .btn-cadastrar:hover{
+    background-color: #992339;
+  }
+
+  .senha{
+    width: 40%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+ 

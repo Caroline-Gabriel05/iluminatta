@@ -1,0 +1,75 @@
+.login{
+	margin-top: 560px;
+	margin-bottom: 189px;
+}
+
+.cadastro{
+	color: #000000;
+}
+
+.login-box {
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.login_tit {
+	font-size: 40px;
+	border-bottom: 4px solid #992339;
+	color: #992339;
+	margin-bottom: 20px;
+	padding: 13px;
+	text-align: center;
+}
+
+.textbox {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #000000;
+}
+
+.textbox input:focus ~ .textbox{
+	border-bottom: 1px solid rgb(109, 61, 61)  ;
+}
+
+.textbox input {
+	width: 95%;
+	border: none;
+	background: none;
+	font-size: 18px;
+	float: left;
+	margin: 0 10px;
+	outline: none;
+}
+
+#password{
+	width: 75%;
+}
+
+.button {
+	width: 100%;
+	padding: 8px;
+	color: #ffffff;
+	background: none #992339;
+	border: none;
+	border-radius: 6px;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 12px 0;
+}
+
+.ver{
+	border: none;
+	background: none;
+	width: auto;
+}
+  
+#ver_img{
+	margin-bottom: -4px;
+}
