@@ -14,3 +14,7 @@ O site é de uma loja virtual, onde é possível realizar e acompanhar pedidos, 
 - HTML
 - SQL
 - JavaScript
+
+## 💻 Link de Acesso
+
+http://54.90.106.80/home/vitrine.php
