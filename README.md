@@ -56,9 +56,9 @@ O sistema simula uma loja virtual real, permitindo que o cliente realize pedidos
 ------------------------------------------------------------------------
 
 ### **2. Clonar o Repositório**
-
+```{=html}
     git clone https://github.com/Caroline-Gabriel05/iluminatta.git
-
+```
 ------------------------------------------------------------------------
 
 ### **3. Configurar o Banco de Dados**
@@ -68,24 +68,22 @@ O sistema simula uma loja virtual real, permitindo que o cliente realize pedidos
 2.  Crie o banco de dados:\
 
 ```{=html}
-```
     luminata
-
+```
 3.  Importe o arquivo SQL localizado em:\
 
 ```{=html}
-```
     /sql/luminata.sql
-
+```
 ------------------------------------------------------------------------
 
 ### **4. Configurar o Servidor**
 
 1.  Mova o projeto para a pasta:\
-
+   
 ```{=html}
-```
     C:\xampp\htdocs\iluminatta
+```
 
 2.  Inicie **Apache** e **MySQL** no XAMPP
 
@@ -95,8 +93,9 @@ O sistema simula uma loja virtual real, permitindo que o cliente realize pedidos
 
 Acesse no navegador:
 
+```{=html}
     http://localhost/iluminatta/home/vitrine.php
-
+```
 ------------------------------------------------------------------------
 
 ## 📁 **Estrutura do Projeto**
