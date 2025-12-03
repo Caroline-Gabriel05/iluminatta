@@ -16,30 +16,30 @@ O sistema simula uma loja virtual real, permitindo que o cliente realize pedidos
 
 ### **Cliente (Front-office):**
 
--   Catálogo de produtos\
--   Visualização de detalhes\
--   Cadastro e login de usuário\
--   Carrinho de compras\
--   Finalização de pedido\
+-   Catálogo de produtos
+-   Visualização de detalhes
+-   Cadastro e login de usuário
+-   Carrinho de compras
+-   Finalização de pedido
 -   Acompanhamento do pedido
 
 ### **Administração (Back-office):**
 
--   Login administrativo\
--   Cadastro e gerenciamento de produtos\
--   Gerenciamento de estoque\
--   Controle e atualização dos pedidos\
+-   Login administrativo
+-   Cadastro e gerenciamento de produtos
+-   Gerenciamento de estoque
+-   Controle e atualização dos pedidos
 -   Relatórios de vendas e movimentações
 
 ------------------------------------------------------------------------
 
 ## 🛠️ **Tecnologias Utilizadas**
 
--   **PHP**\
--   **HTML5**\
--   **CSS3**\
--   **JavaScript**\
--   **MySQL**\
+-   **PHP**
+-   **HTML5**
+-   **CSS3**
+-   **JavaScript**
+-   **MySQL**
 -   **XAMPP** (Apache + MySQL)
 
 ------------------------------------------------------------------------
@@ -48,9 +48,9 @@ O sistema simula uma loja virtual real, permitindo que o cliente realize pedidos
 
 ### **1. Requisitos**
 
--   XAMPP instalado\
--   PHP 7+\
--   MySQL/MariaDB\
+-   XAMPP instalado
+-   PHP 7+
+-   MySQL/MariaDB
 -   Navegador
 
 ------------------------------------------------------------------------
@@ -64,13 +64,13 @@ O sistema simula uma loja virtual real, permitindo que o cliente realize pedidos
 ### **3. Configurar o Banco de Dados**
 
 1.  Acesse o **phpMyAdmin** (geralmente em
-    `http://localhost/phpmyadmin`)\
-2.  Crie o banco de dados:\
+    `http://localhost/phpmyadmin`)
+2.  Crie o banco de dados:
 
 ```{=html}
     luminata
 ```
-3.  Importe o arquivo SQL localizado em:\
+3.  Importe o arquivo SQL localizado em:
 
 ```{=html}
     /sql/luminata.sql
@@ -79,7 +79,7 @@ O sistema simula uma loja virtual real, permitindo que o cliente realize pedidos
 
 ### **4. Configurar o Servidor**
 
-1.  Mova o projeto para a pasta:\
+1.  Mova o projeto para a pasta:
    
 ```{=html}
     C:\xampp\htdocs\iluminatta
